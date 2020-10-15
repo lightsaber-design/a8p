@@ -5,9 +5,33 @@ $(document).ready(function(){
   $('.sidenav').sidenav().on('click tap', 'li a', () => {
     $('.sidenav').sidenav('close');
   });
+  $( '#about1' ).sliderPro({
+    width: 960,
+    height: 500,
+    arrows: false,
+    buttons: false,
+    waitForLayers: true,
+    thumbnailWidth: 200,
+    thumbnailHeight: 100,
+    thumbnailPointer: true,
+    autoplay: true,
+    autoScaleLayers: false,
+    breakpoints: {
+      500: {
+        thumbnailWidth: 120,
+        thumbnailHeight: 50
+      }
+    }
+  });
+  simpleslider.getSlider({
+    container: document.getElementById('slider'),
+    transitionTime:2,
+    delay:8
+  });
   
 });
     
+
 
 
 

@@ -1,11 +1,12 @@
 :root {
-    --primary-color: #262d2d;
-    --primary: #403e3f;
+    --primary-color: #03587f;
+    --primary: #c6e1e4;
     --secondary-color:#EAEAE6;
     --third-color: #7F7C79;
-    --fth-color: #dfac95;
-    --fif-color: #d8b29d;
+    --fth-color: #af8050;
+    --fif-color: #002744;
 }
+
 
 #about {
    margin-top: 20vh;
@@ -23,6 +24,14 @@
     
     
     
+}
+
+#slider {
+    width: 100%; 
+    padding-bottom: 50%;
+    position: relative;
+    overflow: visible;
+    display: block;
 }
 
 

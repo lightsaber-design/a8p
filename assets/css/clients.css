@@ -1,11 +1,12 @@
 :root {
-    --primary-color: #262d2d;
-    --primary: #403e3f;
+    --primary-color: #002744;
+    --primary: #c6e1e4;
     --secondary-color:#EAEAE6;
     --third-color: #7F7C79;
-    --fth-color: #dfac95;
-    --fif-color: #d8b29d;
+    --fth-color: #03587f;
+    --fif-color: #af8050;
 }
+
 
 #clients {
     min-height: auto;
@@ -22,7 +23,7 @@
 
 #clients .row {
     
-    box-shadow: inset 100vh 100vw rgba(255, 255, 255, 0.5);
+    box-shadow: inset 100vh 100vw rgba(255, 255, 255, 0.9);
     color: var(--primary-color);
     padding: 5vh 0;
 }
