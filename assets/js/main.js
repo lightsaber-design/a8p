@@ -1,12 +1,39 @@
 $(document).ready(function(){
+  $('.materialboxed').materialbox();
   $('.parallax').parallax();
   $('.scrollspy').scrollSpy();
   $('.sidenav').sidenav().on('click tap', 'li a', () => {
     $('.sidenav').sidenav('close');
   });
+  
 });
     
 
+
+
+var width = $(window).width();
+$(window).resize(function () {
+    if (600 <= width) {
+        $('#services > .container').addClass('container_border');
+    }
+});
+
+
+$(window).on('scroll', function () {
+ 
+
+  var $nav = $(".nav-wrapper");
+  var $sec = $("section");
+  $nav.toggleClass('scrolled', $(this).scrollTop() > $sec.height());
+
+
+});
+
+$(window).trigger('scroll');
+
+
+  
+ 
 AOS.init({
   // Global settings:
   disable: 'mobile', // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
@@ -22,7 +49,7 @@ AOS.init({
   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
   offset: 120, // offset (in px) from the original trigger point
   delay: 200, // values from 0 to 3000, with step 50ms
-  duration: 1500, // values from 0 to 3000, with step 50ms
+  duration: 2000, // values from 0 to 3000, with step 50ms
   easing: 'ease', // default easing for AOS animations
   once: false, // whether animation should happen only once - while scrolling down
   mirror: false, // whether elements should animate out while scrolling past them
@@ -30,39 +57,5 @@ AOS.init({
 
 });
 
-
-var width = $(window).width();
-$(window).resize(function () {
-    if (600 <= width) {
-        $('#services > .container').addClass('container_border');
-    }
-});
-
-
-$(window).on('scroll', function () {
-  var windowHeight = $(window).height(),
-      gridTop = windowHeight * .01,
-      gridBottom = windowHeight * 1.1;
-  $('body section div').each(function () {
-      var thisTop = $(this).offset().top - $(window).scrollTop();
-
-      if (thisTop > gridTop && (thisTop + $(this).height()) < gridBottom) {
-          $(this).addClass("change");
-      } else {
-          $(this).removeClass("change");
-      }
-  });
-
-  var $nav = $(".nav-wrapper");
-  var $sec = $("section");
-  $nav.toggleClass('scrolled', $(this).scrollTop() > $sec.height());
-
-
-});
-$(window).trigger('scroll');
-
-
-  
- 
   
   

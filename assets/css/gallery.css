@@ -1,0 +1,66 @@
+:root {
+    --primary-color: #262d2d;
+    --primary: #403e3f;
+    --secondary-color:#EAEAE6;
+    --third-color: #7F7C79;
+    --fth-color: #dfac95;
+    --fif-color: #d8b29d;
+}
+#gallery {
+min-height: auto;
+   padding: 0;
+   background-color: transparent;
+}
+
+#gallery h2{
+    transform: translateY(-10vw);
+    -webkit-transition: all 1.5s ease;
+-moz-transition: all 1.5s ease;
+-ms-transition: all 1.5s ease;
+-o-transition: all 1.5s ease;
+transition: all 1.5s ease;
+}
+
+#gallery .col  {
+    padding: 0;
+}
+
+#gallery .row {
+    margin: 0;
+}
+
+#gallery .col > .waves-effect {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#gallery img{
+   
+ 
+    filter: sepia(100%);
+    width: auto;
+    
+ 
+}
+
+#gallery img:hover{
+    filter: sepia(0);
+    
+-webkit-transition: all 2s ease;
+-moz-transition: all 2s ease;
+-ms-transition: all 2s ease;
+-o-transition: all 2s ease;
+transition: all 2s ease;
+}
+
+#gallery p{
+   text-align: center;
+}
+
+
+
+
+

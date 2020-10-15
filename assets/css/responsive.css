@@ -9,10 +9,51 @@
 
 @media only screen and (min-width: 600px) {
     
+    h2{
+        writing-mode: vertical-rl;
+        position: absolute;
+        right: 0;
+    }
+
+    #about .container {
+        max-width: 60vw;
+        margin-left: 10vh;
+    }
+
+    #about .row {
+        max-width: 45vw;
+        background-color: var(--fif-color);
+        margin-left: 9vh;
+    }
  
-   
+    .up, .down {
+        width: 20vw;
+        height: 60vh;
+        transform: translateX(20px);
+        
+      
+    
+    }
+    .up>div{
+        transform: translateX(-10vh) translateY(-10vh);
+        display: flex;
+        width: 50vh;
+        justify-content: center;
+        overflow:clip;
+    
+
+
+    }
+    .down>div{
+        transform: translateY(20vh);
+        display: flex;
+        width: 50vh;
+        justify-content: center;
+        overflow:clip;
+       
+    }
     #services > .container {
-        height: 100vh;
+        height: 80vh;
         
         
         
@@ -39,14 +80,9 @@
 }
 @media only screen and (min-width: 720px){
     h5{
-        top: 60vh;
-        margin: 0 8vw 0 40vw;
+        top: 30vh;
+        margin: 0 30vw 0 20vw;
     }
 
-    #about {
-        -webkit-box-shadow: 0vh -10vh 10vh 8vh var(--primary-color);
-        -moz-box-shadow: 0vh -10vh 10vh 8vh var(--primary-color);
-        box-shadow: 0vh -20vh 10vh 8vh var(--primary-color);
-    }
 }
 

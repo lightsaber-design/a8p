@@ -18,18 +18,25 @@ body {
 }
 
 h1{
-    color: var(--fth-color);
-    font-size: 13vw;
+    color: var(--secondary-color);
+    font-size: 12vw;
     font-family: 'Playfair Display', serif;
 }
 
 h2{
-    position: relative;
-    z-index: 10;
-    font-size: 10vw;
+    color: var(--fth-color);
+    font-size: 11vw;
     font-family: 'Playfair Display', serif;
 }
 
+h3{
+
+    position: relative;
+    z-index: 10;
+    font-size: 9vw;
+    font-family: 'Playfair Display', serif;
+
+}
 h5{
     
     
@@ -52,9 +59,9 @@ section {
 }
 
 .parallax-container{
-    box-shadow: inset 100vh 100vw  rgba(0, 0, 0, 0.5);
+    box-shadow: inset 100vh 100vw rgba(158, 108, 84, 0.7);
     color:var(--secondary-color);
-    height: 100vh;
+  
     
    
 }
@@ -63,10 +70,11 @@ section {
 .parallax {
     margin-top: -40vh;
     
+    
 }
 
 .container_border{
-    box-shadow: inset 100vh 100vw rgba(158, 108, 84, 0.7);
+    
     border: 2vh solid var(--fth-color);
     outline: 1vh solid var(--secondary-color);
     overflow: hidden;

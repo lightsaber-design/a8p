@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BASIC2 </title>
+    <title>A&P </title>
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="assets/css/services.css">
+    <link rel="stylesheet" href="assets/css/gallery.css">
+    <link rel="stylesheet" href="assets/css/clients.css">
     <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -34,9 +36,10 @@
         
                 <ul class=" right hide-on-med-and-down">
                     <li><a href="#home" class="waves-effect waves-light">INICIO</a></li>
-                    <li><a href="#about" class="waves-effect waves-light">ACERCA DE</a></li>
+                    <li><a href="#about" class="waves-effect waves-light">QUIENES SOMOS</a></li>
                     <li><a href="#services" class="waves-effect waves-light">SERVICIOS</a></li>
-                
+                    <li><a href="jobs.html#jobs" class="waves-effect waves-light">GALERÍA</a></li>
+                    <li><a href="#clients" class="waves-effect waves-light">NUESTROS CLIENTES</a></li>
                     <li><a href="#contact" class="waves-effect waves-light">CONTACTO</a></li>
                   
                 </ul>
@@ -46,9 +49,10 @@
         
         <ul class="sidenav" id="mobile-nav">
             <li><a href="#home">INICIO</a></li>
-            <li><a href="#about">ACERCA DE</a></li>
-            <li><a href="#services">SERCICIOS</a></li>
-       
+            <li><a href="#about">QUIENES SOMOS</a></li>
+            <li><a href="#services">SERVICIOS</a></li>
+            <li><a href="jobs.html#jobs">GALERÍA</a></li>
+            <li><a href="#clients">CLIENTES</a></li>
             <li><a href="#contact">CONTACTO</a></li>
        
         </ul>
@@ -56,17 +60,18 @@
     <section id="home" class="parallax-container section scrollspy">
         <div class="parallax"><img src="assets/img/home.jpg"></div>
         <div class="container">
-            <h1 data-aos="fade-up">PRODUCTO</h1>
+            <h1 data-aos="fade-up">ART&PRINT</h1>
             <h6 data-aos="fade-down">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
                </h6>
         </div>
     </section>
     <section id="about" class=" section scrollspy">
-        <h1 data-aos="fade-up">ABOUT</h1>
+   
+        <h2 data-aos="fade-up">QUIENES SOMOS</h2>
         <h5 data-aos="fade-down">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the</h5>
-        <div class="container parallax-container container_border" >
-            <div class="parallax"><img src="assets/img/home.jpg"></div>
-            
+        <div class="row" >
+            <div class="col l6 m6 s12 up" data-aos="fade-up-right" ><div><img src="assets/img/602x660.jpg" ></div> </div>
+            <div class="col l6 m6 s12 down" data-aos="fade-down-left"><div><img src="assets/img/542x805.jpg" ></div></div>
         </div>
         <div class="container">
             <h6 data-aos="fade-down">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
@@ -76,14 +81,14 @@
 
     </section>
     <section id="services" class=" section scrollspy">
-        <h1 data-aos="fade-up">SERVICIOS</h1>
+        <h2 data-aos="fade-up">SERVICIOS</h2>
             <div class="container">
                 <div class="row">
                     <div class="col m6 services_img" >
                         <img src="assets/img/470x896.jpg" alt="" data-aos="zoom-in">
                     </div>
                     <div class="col m6">
-                        <h2 data-aos="fade-left">CONEJO</h2>
+                        <h3 data-aos="fade-left">SERVICIO1</h3>
                         <p>
                             It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
             The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', 
@@ -95,7 +100,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col m6">
-                        <h2 data-aos="fade-left">CONEJO</h2>
+                        <h3 data-aos="fade-left">SERVICIO2</h3>
                         <p>
                             It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
             The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', 
@@ -114,7 +119,7 @@
                         <img src="assets/img/470x896.jpg" alt="" data-aos="zoom-in">
                     </div>
                     <div class="col m6">
-                        <h2 data-aos="fade-left">CONEJO</h2>
+                        <h3 data-aos="fade-left">SERVICIO3</h3>
                         <p>
                             It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
             The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', 
@@ -125,11 +130,95 @@
             </div>
         
     </section>
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/img/home.jpg"></div>
+    </div>
+    <!-- TEAM -->
+<section id="gallery" class="section scrollspy" data-aos="fade-up">
+
+   
+    <div class="row">
+        <div class="col s12 m6 l4 xl3" data-aos="zoom-in">
+
+          
+            <div class=" waves-effect waves-block waves-light">
+                <img src="assets/img/542x805.jpg">
+            </div>
+
+        </div>
+        <div class="col s12 m6 l4 xl3" data-aos="zoom-in">
+
+                <div class=" waves-effect waves-block waves-light">
+                    <img src="assets/img/542x805.jpg">
+                </div>
+
+        </div>
+        <div class="col s12 m6 l4 xl3" data-aos="zoom-in">
+
+                <div class=" waves-effect waves-block waves-light">
+                    <img src="assets/img/542x805.jpg">
+                </div>
+
+        </div>
+        <div class="col s12 m6 l4 xl3" data-aos="zoom-in">
+
+                <div class=" waves-effect waves-block waves-light">
+                    <img src="assets/img/542x805.jpg">
+                </div>
+
+        </div>
+   
+        
+    </div>
+
+ <p><a class="waves-effect waves-light btn-large" href="jobs.html#jobs">MAS</a></p>
+</section>
+
+
+<section id="clients" class="parallax-container">
+    <div class="parallax"><img src="assets/img/home.jpg"></div>
+    <h4>CLIENTS</h4>
+    <div class="container">
+        <p>
+            xt ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic ty
+        </p>
+        <div class="row">
+            <div class="col s12 m4 l3 xl2" data-aos="zoom-in">
+
+                <img src="assets/img/brand1.png" alt="">
+
+            </div>
+            <div class="col s12 m4 l3 xl2" data-aos="zoom-in">
+
+                <img src="assets/img/brand2.png" alt="">
+
+            </div>
+            <div class="col s12 m4 l3 xl2" data-aos="zoom-in">
+
+                <img src="assets/img/brand3.png" alt="">
+
+            </div>
+            <div class="col s12 m4 l3 xl2" data-aos="zoom-in">
+
+                <img src="assets/img/brand4.png" alt="">
+
+            </div>
+            <div class="col s12 m4 l3 xl2" data-aos="zoom-in">
+
+                <img src="assets/img/brand6.png" alt="">
+
+            </div>
+
+
+        </div>
+    </div>
+    
+</section>
     <section id="contact" class=" section scrollspy">
         <div class="container parallax-container container_border" >
             <div class="parallax"><img src="assets/img/home.jpg"></div>
             <div class="container" data-aos="fade-up">
-                <h3 data-aos="flip-up">CONTACTO</h3>
+                <h4 data-aos="flip-up">CONTACTO</h4>
                 <p>
                     xt ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic ty
                 </p>
