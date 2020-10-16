@@ -21,6 +21,7 @@
         max-width: 45vw;
         background-color: var(--fif-color);
         margin-left: 9vh;
+
     }
  
     .up, .down {
@@ -51,12 +52,9 @@
     }
     #services > .container {
         height: 80vh;
-        
-        
-        
+  
     }
-    #services > .container >.row {
-      
+    #services > .container >.row {    
         flex-direction: row;
     }
 
@@ -86,7 +84,7 @@
     }
 
     .nav-wrapper > ul > li >a{
-        border-left: 3px solid var(--fif-color);
+        border-left: 3px solid var(--third-color);
         margin: 1vh 0 1vh 2vh;
         color: transparent
     }
@@ -106,12 +104,19 @@
     section{
         padding-left: 10vw;
     }
+    #services {
+        transform: translateY(20vh);
+    }
     #about1, #services .container {
-        max-width: 70vw!important ;
+        max-width: 60vw!important ;
         margin-right: 25vw;
     }
 
-    
+    #about1, .container {
+        transform: translateY(-10vh);
+    }
+
+ 
 
 }
 

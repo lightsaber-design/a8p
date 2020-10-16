@@ -2,6 +2,8 @@
 .sp-bottom-thumbnails.sp-has-pointer .sp-selected-thumbnail::before{
 	border-bottom: 5px solid #dfac95;
 }
+
+
 #about1 .sp-thumbnail {
 	width: 100%;
 	padding: 8px;

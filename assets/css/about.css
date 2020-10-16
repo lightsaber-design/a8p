@@ -9,13 +9,16 @@
 
 
 #about {
-   margin-top: 20vh;
+  
     color: var(--secondary-color);
-    
+    transform: translateY(20vh);
     background-color: var(--primary-color);
- 
+    margin-top: 12vh;
     position: relative;
     max-height: 100vh;
+}
+#about h2{
+    transform: translateY(-10vh);
 }
 
 #about > .container{
