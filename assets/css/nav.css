@@ -20,8 +20,15 @@ nav{
 
 }
 
+nav ul {
+    display: flex;
+flex-direction: column;
+}
+
 .nav-wrapper{
     padding-top: 1rem;
+    display: flex;
+flex-direction: column;
 }
 
 .scrolled {
@@ -51,11 +58,11 @@ nav .active {
 }
 .nav-wrapper > ul > li >a{
     font-size: .8rem;
-    padding: .5rem 1.5rem;
+    padding: 1rem 1.5rem;
     letter-spacing: .1rem;
 }
 li{
-    line-height: 4;
+    line-height: 2;
     
 }
 

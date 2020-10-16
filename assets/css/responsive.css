@@ -76,6 +76,10 @@
     }
 }
 @media only screen and (min-width: 720px){
+    nav .brand-logo{
+        position: relative;
+    }
+    
     h5{
         top: 30vh;
         margin: 0 30vw 0 20vw;
@@ -87,6 +91,9 @@
         right: 0;
     }
 
+    section{
+        padding-left: 10vw;
+    }
     #about1, #services .container {
         max-width: 70vw!important ;
         margin-right: 25vw;

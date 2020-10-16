@@ -16,25 +16,27 @@
 
 }
 
+
 #about1 .sp-thumbnail-description {
 	font-size: 14px;
 
 }
 
-@media (max-width: 860px) {
-	#about1 .hide-medium-screen {
-		display: none;
-	}
-}
+
 
 @media (max-width: 640px) {
 	#about1 .sp-layer {
 		font-size: 12px;
 	}
 
-	#about1 .hide-small-screen {
-		display: none;
+	
+	.sp-image, .sp-mask, .sp-image-container {
+		height: 50vh!important;
+		width: auto;
 	}
+
+	
+
 }
 
 @media (max-width: 500px) {
@@ -47,8 +49,6 @@
 		text-transform: uppercase;
 	}
 
-	#about1 .sp-thumbnail-description {
-		display: none;
-	}
+	
 }
 
