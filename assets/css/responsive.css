@@ -51,7 +51,7 @@
        
     }
     #services > .container {
-        height: 80vh;
+       margin: 4vh 0;
   
     }
     #services > .container >.row {    
