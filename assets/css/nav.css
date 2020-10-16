@@ -16,14 +16,12 @@ nav{
     z-index: 100;
     background-color: transparent;
     box-shadow: unset;
+
    
 
 }
 
-nav ul {
-    display: flex;
-flex-direction: column;
-}
+
 
 .nav-wrapper{
     padding-top: 1rem;
@@ -51,16 +49,18 @@ flex-direction: column;
     color: var(--secondary-color);
 }
 
-nav .active {
-    border-bottom: 1px solid var(--secondary-color);
-    
-    color: var(--secondary-color);
+nav .active, .nav-wrapper > ul > li >a:hover {
+    border-left: 5px solid var(--secondary-color)!important;
+    font-weight: 600;
+    color: var(--primary)!important;
 }
 .nav-wrapper > ul > li >a{
     font-size: .8rem;
     padding: 1rem 1.5rem;
     letter-spacing: .1rem;
 }
+
+
 li{
     line-height: 2;
     

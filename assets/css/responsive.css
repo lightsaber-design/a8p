@@ -79,6 +79,16 @@
     nav .brand-logo{
         position: relative;
     }
+    nav {
+        width: 10vw;
+        height: 100vh;
+    }
+
+    .nav-wrapper > ul > li >a{
+        border-left: 3px solid var(--fif-color);
+        margin: 1vh 0 1vh 5vh;
+        color: var(--fif-color)
+    }
     
     h5{
         top: 30vh;
