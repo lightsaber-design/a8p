@@ -21,6 +21,7 @@
 #services > .container >.row {
     
     text-align: center;
+    overflow: hidden;
 }
 
 .services_img {

@@ -115,6 +115,9 @@
     #about1, .container {
         transform: translateY(-10vh);
     }
+    #gallery {
+        transform: translateY(10vh);
+    }
 
  
 
