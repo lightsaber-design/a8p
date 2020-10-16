@@ -16,7 +16,8 @@ nav{
     z-index: 100;
     background-color: transparent;
     box-shadow: unset;
-
+    display: flex;
+    flex-direction: column;
    
 
 }
@@ -29,15 +30,15 @@ nav{
 flex-direction: column;
 }
 
-.scrolled {
+nav ul {
 
     transition: background-color 200ms linear;
-    background-color: var(--primary-color)!important;
+   
     opacity: .7;
     padding-top: 0;
  
   }
-.scrolled:hover{
+nav ul:hover{
     opacity: 1;
 }
 
@@ -55,11 +56,13 @@ nav .active, .nav-wrapper > ul > li >a:hover {
     color: var(--primary)!important;
 }
 .nav-wrapper > ul > li >a{
-    font-size: .8rem;
-    padding: 1rem 1.5rem;
+    font-size: .7rem;
+    padding: .5rem 1.5rem;
     letter-spacing: .1rem;
 }
-
+nav ul {
+    margin: auto
+}
 
 li{
     line-height: 2;

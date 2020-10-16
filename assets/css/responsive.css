@@ -77,7 +77,8 @@
 }
 @media only screen and (min-width: 720px){
     nav .brand-logo{
-        position: relative;
+        right: 0;
+
     }
     nav {
         width: 10vw;
@@ -86,9 +87,10 @@
 
     .nav-wrapper > ul > li >a{
         border-left: 3px solid var(--fif-color);
-        margin: 1vh 0 1vh 5vh;
-        color: var(--fif-color)
+        margin: 1vh 0 1vh 2vh;
+        color: transparent
     }
+    
     
     h5{
         top: 30vh;
