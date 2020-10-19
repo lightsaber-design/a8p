@@ -1,25 +1,26 @@
 :root {
-    --primary-color: #002744;
-    --primary: #c6e1e4;
+    --primary-color: #0b1521;
+    --primary: #c6bc9b;
     --secondary-color:#EAEAE6;
-    --third-color: #7F7C79;
-    --fth-color: #03587f;
-    --fif-color: #af8050;
+    --third-color: #d5672c;
+    --fth-color: #f3d577;
+    --fif-color:#4d5f81;
 }
 
 
 #about {
-    background-color: #002744;
-    background-image: linear-gradient(169deg, #002744 9%, #002744 27%, #03587f 51%, #002744 76%, #002744 93%);
- 
+    background-color: var(--primary-color);
+    background-image: linear-gradient(169deg, var(--primary-color) 9%, #0a1420 27%, #112033 51%, #0a1420 76%, var(--primary-color) 93%);
+    padding-top: 10vh;
     max-height: 100vh;
     z-index: 1;
 }
 
 
-#about > .container{
+#about .container{
     overflow: hidden;
     height: 60vh;
+
     
     
     
