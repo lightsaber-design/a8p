@@ -20,10 +20,17 @@
 
 #home .parallax-container {
     height: 100vh;
+    box-shadow: none;
 }
 
-#home img {
-    width: 100%;
+#home .parallax img {
+    min-height: auto;
+    width: 200vw;
+    bottom: 1vh
+}
+
+#home h6{
+    margin-top: 40vh;
 }
 
 
