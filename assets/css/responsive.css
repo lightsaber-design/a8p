@@ -143,6 +143,7 @@
 
     #services .services_img{
         height: 100vh;
+        width: 50%;
     }
     #services .services_text{
         margin-top: 10vh;
@@ -166,14 +167,13 @@
    
     }
   
-
     
   
     #gallery {
         transform: translateY(10vh);
     }
     #gallery .col {
-       <k. margin: 2vh
+       margin: 2vh
     }
     #gallery .row {
         margin-left: 13vw;

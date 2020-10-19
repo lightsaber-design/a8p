@@ -102,11 +102,8 @@ section {
     bottom:0;
     left: 0;
 }
-.container_border{
-    
-    /* border: 2vh solid var(--primary-color);
-    outline: 1px solid var(--secondary-color);
-    overflow: hidden; */
+.container {
+    padding-top: 10vh;
 }
 .btn-large{
     background-color: transparent;

@@ -11,13 +11,14 @@
 #clients {
  
     text-align: center;
-    height: auto;
+
     padding: 0;
   
 }
 
 #clients .parallax-container {
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
 }
 
 #clients h4 {

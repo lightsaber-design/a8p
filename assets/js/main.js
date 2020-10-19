@@ -28,7 +28,15 @@ $(document).ready(function(){
     transitionTime:5,
     delay:2
   });
+
   
+  var x = document.getElementById("materialbox-overlay").parentElement.nodeName;
+  var y = x.parentElement.nodeName;
+  y.classList.add('duh');
+
+  
+
+
 });
     
 

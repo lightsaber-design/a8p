@@ -1,5 +1,7 @@
 
 
+
+
   var masonry = new Macy({
     container: '#macy-container',
     trueOrder: false,
@@ -19,4 +21,7 @@
         400: 1
     },
   });
-  
+
+
+
+ 
