@@ -17,7 +17,7 @@
 
 
 #macy-container::before { content: ""; display: table; clear: both;}
-#macy-container { margin-top: 22px; margin-bottom: 15vh; }
+#macy-container { margin: 4vh 10vw}
 #macy-container::after { content: ""; display: table; clear: both;}
 
 .demo {

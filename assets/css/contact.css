@@ -17,14 +17,8 @@
     
 
 }
-#contact > .container{
-    overflow: hidden;
-    min-height: 90vh;
-    padding: 2vh 0;
-    
-    
-    
-    
+#contact .parallax-container {
+    height: 100vh;
 }
 
 #contact > div > div {

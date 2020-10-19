@@ -9,12 +9,15 @@
     --fth-color: #03587f;
     --fif-color: #af8050;
 }
-
+html{
+    overflow-x: hidden;
+}
 
 body {
+    
     color: var(--secondary-color);
-    background-color: var(--primary-color);
-    font-family: 'Roboto', sans-serif;
+    background: var(--primary-color);
+    /* background: linear-gradient(180deg, rgba(234,234,230,1) 22%, rgba(0,39,68,1) 31%, rgba(0,39,68,1) 100%);    font-family: 'Roboto', sans-serif; */
 }
 
 h1{
@@ -35,9 +38,19 @@ h3{
 
     position: relative;
     z-index: 10;
-    font-size: 7vw;
+    font-size: 4vw;
     font-family: 'Playfair Display', serif;
+    padding: 3vh;
 
+}
+
+h3::before{
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid var(--primary-color);
+    width: 10vw;
+    margin: 0 1rem;
+    transform: translateY(-1.5vw);
 }
 h5{
     
@@ -52,18 +65,26 @@ h5{
 }
 
 p{
-    color: var(--fth-color);
+    
     text-align: justify;
     padding: 3vh;
 }
 section {
     min-height: 100vh;
+    
    
+    
+   
+}
+.section{
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .parallax-container{
     box-shadow: inset 100vh 100vw rgba(0, 39, 68, 0.7);
     color:var(--secondary-color);
+    height: 50vh;
   
     
    
@@ -76,11 +97,16 @@ section {
     
 }
 
+.bottom{
+    position: absolute;
+    bottom:0;
+    left: 0;
+}
 .container_border{
     
-    border: 2vh solid var(--primary-color);
+    /* border: 2vh solid var(--primary-color);
     outline: 1px solid var(--secondary-color);
-    overflow: hidden;
+    overflow: hidden; */
 }
 .btn-large{
     background-color: transparent;
@@ -97,6 +123,4 @@ section {
     opacity: 1;
 }
 
-#about1,.container {
-    transform: translateY(-10vh);
-}
+

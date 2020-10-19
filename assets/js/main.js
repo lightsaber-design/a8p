@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $('.materialboxed').materialbox();
   $('.parallax').parallax();
-  $('.scrollspy').scrollSpy();
+  $('.scrollspy').scrollSpy({ scrollOffset: 0 });
   $('.sidenav').sidenav().on('click tap', 'li a', () => {
     $('.sidenav').sidenav('close');
   });
@@ -25,8 +25,8 @@ $(document).ready(function(){
   });
   simpleslider.getSlider({
     container: document.getElementById('slider'),
-    transitionTime:2,
-    delay:8
+    transitionTime:5,
+    delay:2
   });
   
 });
@@ -50,6 +50,8 @@ $(window).on('scroll', function () {
   var $sec = $("section");
   $nav.toggleClass('scrolled', $(this).scrollTop() > $sec.height());
 
+  $nav.toggleClass('dark', $(this).scrollTop()>$sec.height()*3 && $(this).scrollTop()<$sec.height()*4);
+  $nav.toggleClass('dark2', $(this).scrollTop()>$sec.height()*5 && $(this).scrollTop()<$sec.height()*6);
 
 });
 
@@ -73,7 +75,7 @@ AOS.init({
   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
   offset: 120, // offset (in px) from the original trigger point
   delay: 200, // values from 0 to 3000, with step 50ms
-  duration: 2000, // values from 0 to 3000, with step 50ms
+  duration: 3000, // values from 0 to 3000, with step 50ms
   easing: 'ease', // default easing for AOS animations
   once: false, // whether animation should happen only once - while scrolling down
   mirror: false, // whether elements should animate out while scrolling past them

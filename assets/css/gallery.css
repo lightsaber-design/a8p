@@ -24,10 +24,12 @@ transition: all 1.5s ease;
 
 #gallery .col  {
     padding: 0;
+    
 }
 
 #gallery .row {
     margin: 0;
+    
 }
 
 #gallery .col > .waves-effect {

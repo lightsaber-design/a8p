@@ -8,34 +8,38 @@
 }
 
 #services{
-    
-    
-    margin-top: 12vh;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+
+  
     
 }
 #services >.container{
+    height: 100vh;
     justify-content: center;
-        display: flex;
+    display: flex;
+    width: 100vw;
+    
 }
 
 #services > .container >.row {
-    
-    text-align: center;
+  
     overflow: hidden;
+    margin-bottom: 0;
 }
 
-.services_img {
-justify-content: center;
-align-items: center;
-display: flex;
-
-overflow: hidden;
-height: 40vh;
--webkit-transition: all 2s ease;
--moz-transition: all 2s ease;
--ms-transition: all 2s ease;
--o-transition: all 2s ease;
-transition: all 2s ease;
+#services .services_img {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0;
+    overflow: hidden;
+    height: 40vh;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
 
 
 }
@@ -55,12 +59,7 @@ transition: all 2s ease;
     -o-transition: all 2s ease;
     transition: all 2s ease;
 }
-.services_img:hover{
-    height: 90vh;
-    width: 50vw;
-    
-  
-}
+
 
 
 .services_img:hover ~ div > h2{
@@ -74,7 +73,7 @@ transition: all 2s ease;
 }
 
 .services_img:hover ~ div > p{
-    color: white;
+    color: black;
     -webkit-transition: all 2s ease;
     -moz-transition: all 2s ease;
     -ms-transition: all 2s ease;
@@ -82,4 +81,7 @@ transition: all 2s ease;
     transition: all 2s ease;
 }
 
-
+.services_text {
+    padding: 0 4vh;
+    border-bottom: 1px solid var(--primary-color);
+}

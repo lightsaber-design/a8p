@@ -7,7 +7,9 @@
     --fif-color: #af8050;
 }
 
-
+#home {
+    padding: 0;
+}
 #home .container {
     display: flex;
     align-items: center;
@@ -15,6 +17,11 @@
     margin-top: 12vh;
     flex-direction: column;
 }
+
+#home .parallax-container {
+    height: 100vh;
+}
+
 
 
 
