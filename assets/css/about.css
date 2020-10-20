@@ -12,6 +12,7 @@
     background-color: var(--primary-color);
     background-image: linear-gradient(169deg, var(--primary-color) 9%, #0a1420 27%, #112033 51%, #0a1420 76%, var(--primary-color) 93%);
     padding-top: 10vh;
+    height: 100vh;
     max-height: 100vh;
     z-index: 1;
 }
@@ -24,6 +25,10 @@
     
     
     
+}
+
+#about1{
+    margin-top: 10vh;
 }
 
 #slider {

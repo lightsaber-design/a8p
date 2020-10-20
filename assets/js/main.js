@@ -55,11 +55,13 @@ $(window).on('scroll', function () {
  
 
   var $nav = $(".nav-wrapper");
+  var $x = $('nav');
   var $sec = $("section");
-  $nav.toggleClass('scrolled', $(this).scrollTop() > $sec.height());
+  $x.toggleClass('nav_abs', $(this).scrollTop()<$sec.height()*.75);
+  $nav.toggleClass('scrolled', $(this).scrollTop() > $sec.height()*.75);
 
-  $nav.toggleClass('dark', $(this).scrollTop()>$sec.height()*3 && $(this).scrollTop()<$sec.height()*4);
-  $nav.toggleClass('dark2', $(this).scrollTop()>$sec.height()*5 && $(this).scrollTop()<$sec.height()*6);
+  $nav.toggleClass('dark', $(this).scrollTop()>$sec.height()*2.3 && $(this).scrollTop()<$sec.height()*6);
+  
 
 });
 
