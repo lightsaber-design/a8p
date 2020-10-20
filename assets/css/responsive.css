@@ -73,12 +73,14 @@
 
     }
 
-
+    .nav-wrapper{
+        margin-top: 75vh;
+    }
     .nav-wrapper > ul > li >a{
         /* border-bottom: 3px solid var(--third-color); */
         margin: 1vh 0 1vh 2vh;
         color: var(--fth-color);
-        margin-top: 75vh;
+        
     }
    
     

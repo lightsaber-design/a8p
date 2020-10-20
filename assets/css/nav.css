@@ -23,6 +23,7 @@ nav{
 }
 .nav_abs{
     position: absolute;
+   
 }
 
 
@@ -57,7 +58,7 @@ nav ul:hover{
     color: var(--secondary-color);
 }
 
-.scrolled {
+nav .scrolled {
     background-color: rgba(0, 39, 68, 0.1);
     margin-top: 0;
     
