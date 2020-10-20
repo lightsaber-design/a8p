@@ -9,6 +9,13 @@
 
 #home {
     padding: 0;
+
+    background-color: #191a1f;
+
+}
+
+#home .parallax{
+    z-index: 0;
 }
 #home .container {
     display: flex;
@@ -23,10 +30,11 @@
     box-shadow: none;
 }
 
+
 #home .parallax img {
     min-height: auto;
-    width: 200vw;
-    bottom: 1vh
+    width: 100vw;
+    bottom: 15vh!important;
 }
 
 #home h6{

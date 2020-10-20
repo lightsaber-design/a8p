@@ -7,7 +7,10 @@
   --fif-color:#4d5f81;
 }
 
-
+#pagepiling .nav-wrapper {
+  margin: 0;
+  background-color: var(--primary-color);
+}
 #jobs > .row > .col {
     padding: 0;
 }
