@@ -39,3 +39,8 @@
     color: var(--primary-color);
     padding: 5vh 0;
 }
+
+#clients .row img{
+    width: 14vh;
+    height:  auto;
+}
