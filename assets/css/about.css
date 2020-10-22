@@ -37,9 +37,9 @@ h4 {
     z-index: 0;
     margin-top:-7vh;
     margin-left: 15vh;
-    color: #444;
+    color: var(--primary-color);
     font-size: 14vh;
-    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+    -webkit-text-stroke: 1px var(--third-color);
     text-shadow: -10px 0 var(--fth-color), 10px 0 var(--third-color);
 }
 
