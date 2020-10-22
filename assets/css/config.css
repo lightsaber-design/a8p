@@ -52,7 +52,9 @@ h3::before{
     margin: 0 1rem;
     transform: translateY(-1.5vw);
 }
-
+ span {
+     font-weight: 600;
+ }
 
 
 h5{

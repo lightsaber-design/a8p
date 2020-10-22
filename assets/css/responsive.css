@@ -145,10 +145,7 @@
 /* OFFFFFFFFFFFFF */
 
 @media only screen and (max-width: 720px){
-    #navbar{
-        position: fixed!important;
-        z-index: 10;
-    }
+ 
 
     .m{
         display: none;

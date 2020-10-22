@@ -49,7 +49,7 @@ h4 {
 }
 
 #about h3:before {
-    width: 5vw;
+    width: 3vw;
     transform: translateY(-1vh);
     border-top: .1rem solid var(--fth-color)
 }

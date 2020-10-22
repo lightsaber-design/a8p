@@ -40,7 +40,25 @@
     padding: 5vh 0;
 }
 
-#clients .row img{
-    width: 18vh;
-    height:  auto;
+#clients .col {
+   
+    height: 20vh;
+   
+   text-align: center;
+   display: flex;
+   align-items: center;
+    
+   
 }
+
+#clients span{
+    text-align: center;
+    width: 100%;
+}
+#clients .col img{
+    
+    width: 25vh;
+  
+
+}
+
