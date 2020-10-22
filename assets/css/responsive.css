@@ -10,47 +10,13 @@
 
 @media only screen and (min-width: 600px) {
     
-    #home .parallax img {
-        width: 60vw;
-        height: auto;
-        bottom: -12vh!important;
-    }
 
-    #home .parallax {
-        width: 80vw;
-        height: auto;
-        margin: auto;
-    }
 
     #about .container {
-        max-width: 60vw;
+        max-width: 80vw;
         margin-left: 10vh;
     }
 
-    #about .row {
-        max-width: 45vw;
-        background-color: var(--fif-color);
-        margin-left: 9vh;
-
-    }
-/*  
-    slider */
-
-   
-	
-	.sp-image, .sp-mask, .sp-image-container {
-	
-		width: 30vw!important;
-    }
-
-    #about1 .sp-text{
-        max-width: 30vw;
-        margin-left: 30vw;
-        background-color: transparent;
-    }
-    
-
-    /* endslider */
     #services > .container {
        margin: 4vh 0;
   
@@ -74,7 +40,7 @@
        
     }
 }
-@media only screen and (min-width: 720px){
+@media only screen and (min-width: 780px){
     nav .brand-logo{
         margin: 2vh;
 
@@ -88,6 +54,18 @@
         margin: 1vh 0 1vh 2vh;
         color: var(--fth-color);
         
+    }
+
+    #home .parallax img {
+        width: 60vw;
+        height: auto;
+        bottom: -12vh!important;
+    }
+
+    #home .parallax {
+        width: 80vw;
+        height: auto;
+        margin: auto;
     }
    
     
@@ -103,43 +81,13 @@
     }
 
   
+    #about .row {
+        
+ 
+        margin-left: 9vh;
 
-
-
-    /* slider */
-    .sp-bottom-thumbnails.sp-has-pointer .sp-selected-thumbnail::before{
-        border-bottom: 5px solid var(--fth-color);
-    }
-    
-    
-    #about1 .sp-thumbnail {
-        width: 100%;
-        padding: 8px;
-    
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-    }
-    
-    #about1 .sp-thumbnail-title {
-        margin-bottom: 5px;
-        text-transform: uppercase;
-    
-    }
-    
-    
-    #about1 .sp-thumbnail-description {
-        font-size: 14px;
-    
     }
 
-
-    /* endslider */
-
-
-    #about1  .container {
-        max-width: 60vw!important ;
-        margin-right: 25vw;
-    }
     #services .container {
       max-width: 100vw;
         margin: 0;
@@ -188,6 +136,7 @@
         height: 60vh;
         overflow: hidden;
     }
+
 
  
 
