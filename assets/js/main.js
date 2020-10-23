@@ -61,7 +61,7 @@ $(window).on('scroll', function () {
   $x.toggleClass('nav_abs', $(this).scrollTop()<$sec.height()*.75);
   $nav.toggleClass('scrolled', $(this).scrollTop() > $sec.height()*.75);
 
-  $nav.toggleClass('dark', $(this).scrollTop()>$sec.height()*2.3 && $(this).scrollTop()<$sec.height()*6);
+  $nav.toggleClass('dark', $(this).scrollTop()>$sec.height()*2.5 && $(this).scrollTop()<$sec.height()*4.6);
   
 
 });
