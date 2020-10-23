@@ -28,10 +28,11 @@ h1{
 
 h2{
     color: var(--fth-color);
-    font-size: 9vw;
+    font-size: 8vw;
     font-family: 'Playfair Display', serif;
     margin:0;
     text-align: center;
+    
 }
 
 h3{

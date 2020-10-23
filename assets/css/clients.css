@@ -21,21 +21,19 @@
     height: auto;
 }
 
-#clients h4 {
-    margin-top: 10vh;
-}
+
 #clients .container{
     transform: translateY(0);
 }
 
 
-#clients p {
-    color: var (var(--secondary-color))
+#clients .container p {
+    color: var(--primary-color)
 }
 
 #clients .row {
     
-    box-shadow: inset 100vh 100vw rgba(255, 255, 255, 0.7);
+    box-shadow: inset 100vh 100vw rgba(255, 255, 255, .5);
     color: var(--primary-color);
     padding: 5vh 0;
 }
