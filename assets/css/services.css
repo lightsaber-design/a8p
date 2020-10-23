@@ -24,68 +24,14 @@
     
 }
 
-#services > .container >.row {
-  
-    overflow: hidden;
-    margin-bottom: 0;
-    margin: auto;
-}
-
-#services .services_img {
-    justify-content: center;
-    align-items: center;
-    display: flex;
+#services p {
     padding: 0;
-    overflow: hidden;
-    height: 40vh;
-    -webkit-transition: all 2s ease;
-    -moz-transition: all 2s ease;
-    -ms-transition: all 2s ease;
-    -o-transition: all 2s ease;
-    transition: all 2s ease;
-    width: 100%;
-
-
-}
-.services_img > img {
-    width: 90vw;
-    filter: sepia(70%);
- 
-    
-    
+    margin: 0;
+    text-align: center;
 }
 
-.services_img:hover img{
-    filter: sepia(0%);
-    -webkit-transition: all 2s ease;
-    -moz-transition: all 2s ease;
-    -ms-transition: all 2s ease;
-    -o-transition: all 2s ease;
-    transition: all 2s ease;
-}
-
-
-
-.services_img:hover ~ div > h2{
-    margin-left: 0!important;
-    -webkit-transition: all 2s ease;
-    -moz-transition: all 2s ease;
-    -ms-transition: all 2s ease;
-    -o-transition: all 2s ease;
-    transition: all 2s ease;
-
-}
-
-.services_img:hover ~ div > p{
-    color: black;
-    -webkit-transition: all 2s ease;
-    -moz-transition: all 2s ease;
-    -ms-transition: all 2s ease;
-    -o-transition: all 2s ease;
-    transition: all 2s ease;
-}
-
-.services_text {
-    padding: 0 4vh;
-    border-bottom: 1px solid var(--primary-color);
+#services p a {
+    margin: 10vh 0;
+    border: 1px solid var(--third-color);
+    color: var(--third-color)
 }
