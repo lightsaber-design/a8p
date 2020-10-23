@@ -47,9 +47,9 @@ transition: all 1.5s ease;
 .carousel > .active {
     margin-left: -35.5px;
 }
-#gallery img{
-    filter: sepia(100%);
-    width: 80vh;
+#services img{
+
+    width: 60vh;
 } 
 
 .carousel-item{
@@ -61,7 +61,7 @@ transition: all 1.5s ease;
 }
 
 #gallery img:hover{
-    filter: sepia(0);
+  
     
 -webkit-transition: all 2s ease;
 -moz-transition: all 2s ease;

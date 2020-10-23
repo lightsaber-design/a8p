@@ -1,34 +1,23 @@
 $(document).ready(function(){
-  $('.materialboxed').materialbox();
+  const carouselOptions = {
+    duration: 100
+  };
+  const materialBoxOptions = {
+    inDuration: 150,
+    outDuration: 150,
+  };
+
+
+
+
+  $('.materialboxed').materialbox(materialBoxOptions);
   $('.parallax').parallax();
   $('.scrollspy').scrollSpy({ scrollOffset: 0 });
   $('.sidenav').sidenav().on('click tap', 'li a', () => {
     $('.sidenav').sidenav('close');
   });
-  $('.carousel').carousel();
-  $( '#about1' ).sliderPro({
-    width: 960,
-    height: 500,
-    arrows: false,
-    buttons: false,
-    waitForLayers: true,
-    thumbnailWidth: 200,
-    thumbnailHeight: 100,
-    thumbnailPointer: true,
-    autoplay: true,
-    autoScaleLayers: false,
-    breakpoints: {
-      500: {
-        thumbnailWidth: 120,
-        thumbnailHeight: 50
-      }
-    }
-  });
-  simpleslider.getSlider({
-    container: document.getElementById('slider'),
-    transitionTime:5,
-    delay:2
-  });
+  $('.carousel').carousel(carouselOptions);
+  
 
   
   var x = document.getElementById("materialbox-overlay").parentElement.nodeName;
